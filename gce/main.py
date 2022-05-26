@@ -18,7 +18,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def say_hello():
-    return "Hello, world! From Instance template2"
+    return "Hello, world! From Instance template1"
 
 
 if __name__ == '__main__':
